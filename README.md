@@ -6,7 +6,7 @@
 ### Desarrollo del proyecto ###
 -----------------------------------------------------------------
 
-<h4>El Blog fue desarrollado a través del framework Django, basado en lenguaje Python, para la administración de las diferentes partes de la pagina como la backend y la frontend. la base de datos utilizada en el blog es postreges la cual es administrada por el framework. para la realización de diseño se usó css y se utilizaron diferentes plantillas de bootstraps </h4>
+<h4>El Blog fue desarrollado a través del framework Django, basado en lenguaje Python, para la administración de las diferentes partes de la pagina como la backend y la frontend. la base de datos utilizada en el blog es MySQL la cual es administrada por el framework. para la realización de diseño se usó css y se utilizaron diferentes plantillas de bootstraps </h4>
 
 ### Herramientas ###
 
