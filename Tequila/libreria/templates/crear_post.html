@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Nuevo Post</title>
+        <link href="{% static '/css/normalize.css' %}" rel="stylesheet" />
+        <link href="{% static '/css/reset.css' %}" rel="stylesheet" />
+        <link href="{% static '/css/cabecera.css' %}" rel="stylesheet" />
+        <link rel="stylesheet" href="{% static '/css//login/login_input_titulo.css' %}"/>
+        <link rel="stylesheet" href="{% static '/css//login/login_inputs.css' %}"/>
+        <link rel="stylesheet" href="{% static '/css/menu-item/cabecera.css' %}"/>
+        <link rel="stylesheet" href="{% static '/css/menu-item/menu__item.css' %}"/>
+        <link rel="stylesheet" href="{% static '/css/menu-item/menu__link.css' %}"/>
+        <link rel="stylesheet" href="{% static '/css/menu-item/menu__lista.css' %}"/>
+        <link rel="stylesheet" href="{% static '/css/logo.css' %}"/>
+        <link rel="stylesheet" href="{% static '/css/footer.css' %}"/>
+        
+        
+    </head>
+    <body>
+        <header class="cabecera">
+            <img class="logo" src=".static/img/Logo (1).jpg" alt="logo">
+            <nav class="menu">
+                <ul class="menu__lista">
+                    
+                    <li class="menu__item"><a class="menu__link" href="./index.html">Volver</a></li>
+                </li>
+                </ul>
+            </nav>
+        </header><section class="nuevo-post">
+    <div class="iniciar__sesion__header">
+        <h1 class="iniciar__sesion__titulo">Agregar Nuevo Post</h1>
+    </div>
+    <form id="form">
+    <div class="iniciar__sesion__inputs">
+        <input class="iniciar__sesion__email" id="registrarse" type="text" placeholder="Titulo" required >
+        <textarea class="contenido-post" type="text" placeholder="Agregue aquí el contenido" required ></textarea>
+        <button class="iniciar__sesion__btn">Guardar</button></a>
+    </div>
+    </form>
+    </section>
+    </body>
+    <footer class="pie-de-pagina">
+        <img class="logo_pie" src=".static/img/Logo (1).jpg" alt="logo">
+        
+        <a class="contacto-tel" href="tel:+3624371975">Contactos: 3624371975</a>
+        <a class="contacto-email" href="mailto:fundacionobrandoenti@hotmail.com">fundacionobrandoenti@hotmail.com</a> 
+    </footer>
+</html>

@@ -4,7 +4,6 @@ from libreria import templates
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
 
-
 # Create your views here.
 
 def inicio(request):
@@ -30,3 +29,5 @@ def registro(request):
 
 
      return render(request, 'registro.html', data)
+
+  
